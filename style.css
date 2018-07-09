@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.image-wrapper {
+  width: 33.3333333%;
+  margin: 0;
+  padding: 10px;
+  float: left;
+}
+img {
+  width: 100%;
+}
